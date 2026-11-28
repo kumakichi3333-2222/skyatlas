@@ -1,0 +1,3 @@
+SkyAtlas — integration build
+Upload index.html, app.js, style.css and assets/ to the repository root. Enable GitHub Pages from main / (root). Sign in with the existing Supabase Auth account.
+Requires deployed search-flights Edge Function and SERPAPI_KEY secret. The function searches tomorrow UTC, independently of the study record date. No sample records are inserted. Airport metadata and globe textures use external public resources. API logos are used in search; history uses airline-code logo lookup. Ticket layout is a shared virtual template, not an official boarding pass. Gate is unknown unless supplied; seat is simulated. Album is deferred. No live authenticated API or browser test has been performed in this environment.
